@@ -91,7 +91,7 @@ while True:
             exit()
 
     # Criação texto pontuação, cobra e maçã
-    point_text_format = font.render(point_text, True, (0,0,0))
+    point_text_format = font.render(point_text, True, (255,255,255))
     snake = pygame.draw.rect(screen, (0,200,0), (x_snake,y_snake, 20, 20))
     apple = pygame.draw.circle(screen, (150,0,0),(x_apple, y_apple), 10 )
 
