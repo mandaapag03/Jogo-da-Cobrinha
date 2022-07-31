@@ -80,7 +80,7 @@ dead = False
 
 # loop infinito do jogo
 while True:
-    screen.fill((240,240,240))
+    screen.fill((60,60,150))
     clock.tick(10)
     point_text = f'Point: {point}'
     
